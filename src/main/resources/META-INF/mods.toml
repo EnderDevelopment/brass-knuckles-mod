@@ -1,0 +1,23 @@
+[[mods]]
+modId = "brassknucklesmod"
+version = "${file.jarVersion}"
+displayName = "Brass Knuckles Mod"
+credits = "CalebTSB43"
+authors = "CalebTSB43"
+description = '''
+Adds custom Brass Knuckles animations to Minecraft Bedrock for Android.
+'''
+
+[[dependencies.brassknucklesmod]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.brassknucklesmod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.20.4]"
+ordering = "NONE"
+side = "BOTH"

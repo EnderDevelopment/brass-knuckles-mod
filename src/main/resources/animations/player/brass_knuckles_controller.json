@@ -1,0 +1,15 @@
+{
+    "format_version": "1.8.0",
+    "animation_controllers": {
+        "controller.animation.brass_knuckles": {
+            "states": {
+                "default": {
+                    "animations": [
+                        "animation.brass_knuckles.left_punch",
+                        "animation.brass_knuckles.right_punch"
+                    ]
+                }
+            }
+        }
+    }
+}
